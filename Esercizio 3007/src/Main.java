@@ -11,7 +11,7 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Inserisci il numero di elementi da inserire: ");
             int N = scanner.nextInt();
-            scanner.nextLine();  
+            scanner.nextLine();
 
             Set<String> paroleDistinte = new HashSet<>();
             Set<String> paroleDuplicate = new HashSet<>();
